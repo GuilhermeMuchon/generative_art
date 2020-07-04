@@ -15,7 +15,7 @@ function draw() {
 }
 
 function drawCircle(x, radius, level) {
-    const tt = (num3 * level) / 4.0;
+    const tt = (num3 * level) / 4;
     fill(tt, num1, num2);
     ellipse(x, height / 2, radius * 2, radius * 2);
     if (level > 1) {
