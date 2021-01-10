@@ -8,9 +8,9 @@ let stars = [];
 let speed;
 let img;
 
-// function preload() {
-//     img = loadImage('https://imgur.com/a/opYXAFs');
-// }
+function preload() {
+    img = loadImage('https://imgur.com/a/opYXAFs');
+}
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -18,10 +18,8 @@ function setup() {
     for (let i = 0; i < 800; i++) {
         stars[i] = new Star();
     }
-
-    createDiv('<img src="assets/cockpit.png" alt="Ship Cockpit">').size(windowWidth, windowHeight);
     
-    // image(img, 10, 10, windowWidth, windowHeight);
+    image(img, 10, 10, windowWidth, windowHeight);
 }
 
 function draw() {
