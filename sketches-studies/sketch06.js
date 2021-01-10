@@ -1,3 +1,4 @@
+// Spaceship flight
 // Code inpired by this incredible person below:
 // Daniel Shiffman
 // http://codingtra.in
@@ -5,11 +6,10 @@
 // Code for: https://youtu.be/17WoOqgXsRM
 
 let stars = [];
-let speed;
-let img;
+let speed, img;
 
 function preload() {
-    img = loadImage('https://imgur.com/a/opYXAFs');
+    img = loadImage('sketches-studies/assets/cockpit.png');
 }
 
 function setup() {
@@ -18,18 +18,21 @@ function setup() {
     for (let i = 0; i < 800; i++) {
         stars[i] = new Star();
     }
-    
-    image(img, 10, 10, windowWidth, windowHeight);
 }
 
 function draw() {
-    speed = map(mouseY * 3, 1, height, 1, 50);
     background(0);
+    
+    speed = map(mouseY * 2, 1, height, 1, 50);
     translate(width / 2, height / 2);
+    // translate(mouseX, mouseY);
+    
     for (let i = 0; i < stars.length; i++) {
         stars[i].update();
         stars[i].show();
     }
+
+    image(img, -(width / 2), -(height / 2), windowWidth, windowHeight);
 }
 
 function Star() {
