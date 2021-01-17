@@ -25,7 +25,6 @@ function draw() {
     
     speed = map(mouseY * 2, 1, height, 1, 50);
     translate(width / 2, height / 2);
-    // translate(mouseX, mouseY);
     
     for (let i = 0; i < stars.length; i++) {
         stars[i].update();
