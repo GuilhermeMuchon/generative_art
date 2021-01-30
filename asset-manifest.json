@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//guilhermemuchon.github.io/generative_art/static/css/main.56911a85.chunk.css",
+    "main.js": "//guilhermemuchon.github.io/generative_art/static/js/main.6fb1179f.chunk.js",
+    "main.js.map": "//guilhermemuchon.github.io/generative_art/static/js/main.6fb1179f.chunk.js.map",
+    "runtime-main.js": "//guilhermemuchon.github.io/generative_art/static/js/runtime-main.870e7fdb.js",
+    "runtime-main.js.map": "//guilhermemuchon.github.io/generative_art/static/js/runtime-main.870e7fdb.js.map",
+    "static/js/2.97b93fa0.chunk.js": "//guilhermemuchon.github.io/generative_art/static/js/2.97b93fa0.chunk.js",
+    "static/js/2.97b93fa0.chunk.js.map": "//guilhermemuchon.github.io/generative_art/static/js/2.97b93fa0.chunk.js.map",
+    "static/js/3.afc80028.chunk.js": "//guilhermemuchon.github.io/generative_art/static/js/3.afc80028.chunk.js",
+    "static/js/3.afc80028.chunk.js.map": "//guilhermemuchon.github.io/generative_art/static/js/3.afc80028.chunk.js.map",
+    "index.html": "//guilhermemuchon.github.io/generative_art/index.html",
+    "static/css/main.56911a85.chunk.css.map": "//guilhermemuchon.github.io/generative_art/static/css/main.56911a85.chunk.css.map",
+    "static/js/2.97b93fa0.chunk.js.LICENSE.txt": "//guilhermemuchon.github.io/generative_art/static/js/2.97b93fa0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "//guilhermemuchon.github.io/generative_art/static/media/cutive-mono-v9-latin-regular.d9bdb463.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.870e7fdb.js",
+    "static/js/2.97b93fa0.chunk.js",
+    "static/css/main.56911a85.chunk.css",
+    "static/js/main.6fb1179f.chunk.js"
+  ]
+}
