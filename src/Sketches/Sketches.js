@@ -8,7 +8,7 @@ function Sketches() {
             {images.map(({ id, src, title, description }) => {
                 return (
                     <div className="SketchHolder" key={id}>
-                        <Link to={"/sketch/"+id}><img src={src} title={title} alt={description} /></Link>
+                        <Link to={"/sketches/"+id}><img src={src} title={title} alt={description} /></Link>
                     </div>)
             })}
         </div>
