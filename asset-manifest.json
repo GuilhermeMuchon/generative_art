@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "//guilhermemuchon.github.io/generative_art/static/css/main.56911a85.chunk.css",
-    "main.js": "//guilhermemuchon.github.io/generative_art/static/js/main.99b203bd.chunk.js",
-    "main.js.map": "//guilhermemuchon.github.io/generative_art/static/js/main.99b203bd.chunk.js.map",
-    "runtime-main.js": "//guilhermemuchon.github.io/generative_art/static/js/runtime-main.c2865c46.js",
-    "runtime-main.js.map": "//guilhermemuchon.github.io/generative_art/static/js/runtime-main.c2865c46.js.map",
-    "static/js/2.e486da2c.chunk.js": "//guilhermemuchon.github.io/generative_art/static/js/2.e486da2c.chunk.js",
-    "static/js/2.e486da2c.chunk.js.map": "//guilhermemuchon.github.io/generative_art/static/js/2.e486da2c.chunk.js.map",
-    "index.html": "//guilhermemuchon.github.io/generative_art/index.html",
-    "static/css/main.56911a85.chunk.css.map": "//guilhermemuchon.github.io/generative_art/static/css/main.56911a85.chunk.css.map",
-    "static/js/2.e486da2c.chunk.js.LICENSE.txt": "//guilhermemuchon.github.io/generative_art/static/js/2.e486da2c.chunk.js.LICENSE.txt",
-    "static/media/index.css": "//guilhermemuchon.github.io/generative_art/static/media/cutive-mono-v9-latin-regular.d9bdb463.woff"
+    "main.css": "/generative_art/static/css/main.7e7a142a.chunk.css",
+    "main.js": "/generative_art/static/js/main.99b203bd.chunk.js",
+    "main.js.map": "/generative_art/static/js/main.99b203bd.chunk.js.map",
+    "runtime-main.js": "/generative_art/static/js/runtime-main.bf1f8c0a.js",
+    "runtime-main.js.map": "/generative_art/static/js/runtime-main.bf1f8c0a.js.map",
+    "static/js/2.e486da2c.chunk.js": "/generative_art/static/js/2.e486da2c.chunk.js",
+    "static/js/2.e486da2c.chunk.js.map": "/generative_art/static/js/2.e486da2c.chunk.js.map",
+    "index.html": "/generative_art/index.html",
+    "static/css/main.7e7a142a.chunk.css.map": "/generative_art/static/css/main.7e7a142a.chunk.css.map",
+    "static/js/2.e486da2c.chunk.js.LICENSE.txt": "/generative_art/static/js/2.e486da2c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/generative_art/static/media/cutive-mono-v9-latin-regular.d9bdb463.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2865c46.js",
+    "static/js/runtime-main.bf1f8c0a.js",
     "static/js/2.e486da2c.chunk.js",
-    "static/css/main.56911a85.chunk.css",
+    "static/css/main.7e7a142a.chunk.css",
     "static/js/main.99b203bd.chunk.js"
   ]
 }
