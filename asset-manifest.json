@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/generative_art/static/css/main.7e7a142a.chunk.css",
+    "main.css": "/generative_art/static/css/main.090ac29a.chunk.css",
     "main.js": "/generative_art/static/js/main.99b203bd.chunk.js",
     "main.js.map": "/generative_art/static/js/main.99b203bd.chunk.js.map",
     "runtime-main.js": "/generative_art/static/js/runtime-main.bf1f8c0a.js",
@@ -8,14 +8,14 @@
     "static/js/2.e486da2c.chunk.js": "/generative_art/static/js/2.e486da2c.chunk.js",
     "static/js/2.e486da2c.chunk.js.map": "/generative_art/static/js/2.e486da2c.chunk.js.map",
     "index.html": "/generative_art/index.html",
-    "static/css/main.7e7a142a.chunk.css.map": "/generative_art/static/css/main.7e7a142a.chunk.css.map",
+    "static/css/main.090ac29a.chunk.css.map": "/generative_art/static/css/main.090ac29a.chunk.css.map",
     "static/js/2.e486da2c.chunk.js.LICENSE.txt": "/generative_art/static/js/2.e486da2c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/generative_art/static/media/cutive-mono-v9-latin-regular.d9bdb463.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.bf1f8c0a.js",
     "static/js/2.e486da2c.chunk.js",
-    "static/css/main.7e7a142a.chunk.css",
+    "static/css/main.090ac29a.chunk.css",
     "static/js/main.99b203bd.chunk.js"
   ]
 }
