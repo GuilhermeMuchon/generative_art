@@ -1,10 +1,14 @@
 let x = 10, y = 10;
-let num1 = random(0, 255), num2 = random(0, 255), num3 = random(0, 255);
+let num1, num2, num3;
 let decrease1 = false, decrease2 = false, decrease3 = false;
 let increaseRate1 = 1, increaseRate2 = 1, increaseRate3 = 1;
 
 // Recursive balls, dynamic color
 function setup() {
+    num1 = random(0, 255);
+    num2 = random(0, 255);
+    num3 = random(0, 255);
+
     createCanvas(windowWidth, windowHeight);
     background(0);
 }
