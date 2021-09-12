@@ -9,7 +9,7 @@ let stars = [];
 let speed, img;
 
 function preload() {
-    img = loadImage('sketches-studies/assets/cockpit.png');
+    img = loadImage('./assets/cockpit.png');
 }
 
 function setup() {
