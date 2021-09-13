@@ -15,7 +15,7 @@
 
 /* General */
 * {
-    background-color: #AFE0FF;
+    background-color: #51573A;
 }
 
 body {
@@ -26,13 +26,13 @@ body {
 }
 
 p {
-    color: #ef6034;
+    color: #EACC76;
     font-family: 'Cutive Mono';
     font-weight: bold;
 }
 
 a {
-    color: #257a60;
+    color: #CE704A;
     font-weight: bold;
 }
 
@@ -94,10 +94,15 @@ a {
 }
 
 .SketchHolder img {
-    border: 1px solid #ef6034;
+    border: 5px outset #FFCCB1;
     height: 100%;
     width: 100%;
     border-radius: inherit;
+	transition: border 0.1s;
+}
+
+.SketchHolder img:hover {
+    border: 10px outset #FFCCB1;
 }
 
 .SketchHolder a {
