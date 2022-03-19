@@ -5,11 +5,15 @@
     font-weight: 400;
     src: url('./fonts/cutive-mono-v9-latin-regular.eot');
     /* IE9 Compat Modes */
-    src: local('cutive-mono-v9-latin-regular'), url('./fonts/cutive-mono-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('./fonts/cutive-mono-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('./fonts/cutive-mono-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('./fonts/cutive-mono-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('./fonts/cutive-mono-v9-latin-regular.svg#CutiveMono') format('svg');
+    src: local('cutive-mono-v9-latin-regular'), url('./fonts/cutive-mono-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/cutive-mono-v9-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/cutive-mono-v9-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/cutive-mono-v9-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/cutive-mono-v9-latin-regular.svg#CutiveMono') format('svg');
     /* Legacy iOS */
 }
 
@@ -64,6 +68,7 @@ a {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(359deg);
     }
@@ -87,18 +92,18 @@ a {
 }
 
 .SketchHolder {
-    height: 300px;
-    width: 300px;
+    height: 30%;
+    width: 30%;
     margin: 2% 10% 2% 10%;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .SketchHolder img {
-    border: 5px outset #FFCCB1;
+    border: 10px outset #FFCCB1;
     height: 100%;
     width: 100%;
     border-radius: inherit;
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .SketchHolder img:hover {
@@ -107,4 +112,10 @@ a {
 
 .SketchHolder a {
     border-radius: inherit;
+}
+
+@media (min-width:1025px) {
+    #MobileWarn {
+        display: none;
+    }
 }
