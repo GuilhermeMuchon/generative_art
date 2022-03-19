@@ -1,12 +1,12 @@
 document.body.onload = listSketches;
 
 var sketchesList = [
-    { id: "01", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' },
-    { id: "02", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' },
-    { id: "03", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' },
-    { id: "04", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' },
-    { id: "05", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' },
-    { id: "06", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'foo', description: 'bar' }
+    { id: "01", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 01', alt: 'Sketch 01' },
+    { id: "02", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 02', alt: 'Sketch 02' },
+    { id: "03", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 03', alt: 'Sketch 03' },
+    { id: "04", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 04', alt: 'Sketch 04' },
+    { id: "05", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 05', alt: 'Sketch 05' },
+    { id: "06", src: "https://i.redd.it/cosm6mk0jg941.jpg", title: 'Sketch 06', alt: 'Sketch 06' }
 ];
 
 function listSketches() {
@@ -20,7 +20,7 @@ function listSketches() {
         var image = document.createElement("img");
         image.src = sketchesList[index].src;
         image.title = sketchesList[index].title;
-        image.description = sketchesList[index].description;
+        image.alt = sketchesList[index].alt;
 
         anchor.appendChild(image);
         divSketch.appendChild(anchor);

@@ -98,11 +98,11 @@ a {
     height: 100%;
     width: 100%;
     border-radius: inherit;
-	transition: border 0.1s;
+    transition: all .2s ease-in-out;
 }
 
 .SketchHolder img:hover {
-    border: 10px outset #FFCCB1;
+    transform: scale(1.1);
 }
 
 .SketchHolder a {
