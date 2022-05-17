@@ -1,6 +1,7 @@
 let MAX = 10;
 
 function setup() {
+    pixelDensity(1);
     createCanvas(windowWidth, windowHeight);
     background(0);
 }

@@ -5,6 +5,7 @@ let increaseRate1 = 1, increaseRate2 = 1, increaseRate3 = 1;
 
 // Recursive balls, dynamic color
 function setup() {
+    pixelDensity(1);
     num1 = random(0, 255);
     num2 = random(0, 255);
     num3 = random(0, 255);

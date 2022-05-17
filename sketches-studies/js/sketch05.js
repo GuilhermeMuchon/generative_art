@@ -3,6 +3,7 @@ let randWidthArray, randHeightArray;
 let wIncrementArray, hIncrementArray;
 
 function setup() {
+    pixelDensity(1);
     createCanvas(windowWidth, windowHeight);
     background(20);
 

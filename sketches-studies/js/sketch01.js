@@ -2,6 +2,7 @@ let x = 0, y = 0;
 
 // Random Y, linear X, balls, random color
 function setup() {
+    pixelDensity(1);
     createCanvas(windowWidth, windowHeight);
     background(0);
 }

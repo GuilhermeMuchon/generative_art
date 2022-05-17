@@ -2,6 +2,7 @@ let x = 10, y = 10;
 
 // Random lines
 function setup() {
+    pixelDensity(1);
     createCanvas(windowWidth, windowHeight);
     background(0);
 }

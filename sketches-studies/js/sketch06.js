@@ -13,6 +13,7 @@ function preload() {
 }
 
 function setup() {
+    pixelDensity(1);
     createCanvas(windowWidth, windowHeight);
     
     for (let i = 0; i < 800; i++) {
